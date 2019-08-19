@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-.3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Favorite Things</title>
+  </head>
+  <body>
+    <h1>Please enter your favorite things:</h1>
+    <form id="fav-things">
+      <ol>
+        <li><label for="food">Food:</label>
+        <input type="text" name="food" id="food"></li>
+        <li><label for="animal">Animal:</label>
+        <input type="text" name="animal" id="animal"></li>
+        <li><label for="music-type">Music type:</label> <input type="text" name="music-type" id="music-type"></li>
+        <li><label for="color">Color:</label>
+        <input type="text" name="color" id="color"></li>
+        <li><label for="movie">Movie:</label>
+        <input type="text" name="movie" id="movie"></li>
+      </ol>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+
+    <div id="results">
+      <p>Here are your results:</p>
+      <ol>
+        <li><span class= "food"></span></li>
+        <li><span class= "animal"></span></li>
+        <li><span class= "music-type"></span></li>
+        <li><span class= "color"></span></li>
+        <li><span class= "movie"></span></li>
+      </ol>
+
+    </div>
+  </body>
+</html>
