@@ -4,13 +4,16 @@ $(document).ready(function() {
     alert("inform");
 
     var favoriteThings = [];
-    var food = $("input#food").val();
+    var food = $("#food").val();
     var animal = $("#animal").val();
     var musicType = $("#music-type").val();
     var color = $("#color").val();
     var movie = $("#movie").val();
     console.log(favoriteThings);
-    favoriteThings.push(food, animal, musicType, color, movie);
+
+    food2.text(food);
+
+    favoriteThings.push(food2, animal, musicType, color, movie);
 
 
   });
